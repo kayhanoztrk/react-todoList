@@ -1,0 +1,43 @@
+.App {
+    width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .ekleme_formu input,
+  .ekleme_formu button,
+  .temizle {
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+  }
+  
+  .inserted_form input {
+    background: #e1e1e2;
+  }
+  
+  .inserted_form button,
+  .clear_all {
+    background: #333;
+    color: white;
+  }
+  
+  .todo_list {
+    padding: 20px 0;
+  }
+  
+  .todo_list > div {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo_list > div:last-child {
+    border-bottom: 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
